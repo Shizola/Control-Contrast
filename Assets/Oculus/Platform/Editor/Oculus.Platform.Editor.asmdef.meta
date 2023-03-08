@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6ac5dbe4ed9d84148a74f79d1934cccc
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 49.0
+  assetPath: Assets/Oculus/Platform/Editor/Oculus.Platform.Editor.asmdef
+  uploadId: 559373

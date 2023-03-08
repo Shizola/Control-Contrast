@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b262f7f3982208e4d935dcdf80110f59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 49.0
+  assetPath: Assets/Oculus/Interaction/Runtime/Meshes/Locomotion/Materials/MetaCrossMat.mat
+  uploadId: 559373

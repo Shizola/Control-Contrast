@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d165d6145cc3c264ca1bea96c7e33713
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 82022
+  packageName: Oculus Integration
+  packageVersion: 49.0
+  assetPath: Assets/Oculus/Platform/Scripts/Models/NetSyncSession.cs
+  uploadId: 559373
