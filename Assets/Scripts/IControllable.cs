@@ -5,6 +5,7 @@ using NaughtyAttributes;
 //interface to toggle control of objects
 public interface IControllable
 {
+    public bool InControl { get; set; }
     void TakeControl();
     void ReleaseControl();
     void TestTakeControl();

@@ -1034,6 +1034,7 @@ GameObject:
   - component: {fileID: 6982812146204527121}
   - component: {fileID: 7869438865515440250}
   - component: {fileID: 6261880751411602429}
+  - component: {fileID: 3668916926404130152}
   m_Layer: 0
   m_Name: Man
   m_TagString: Untagged
@@ -1057,7 +1058,7 @@ Transform:
   - {fileID: 8002264680419333305}
   - {fileID: 272993188807782130}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6982812146204527121
 Animator:
@@ -1115,6 +1116,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b8fb49aa248ada4f9dffcde616f973c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controlMaterial: {fileID: 2100000, guid: c36f7b00f594d364c94c890b2a576c7e, type: 2}
+  releaseMaterial: {fileID: 2100000, guid: 46da628bd61de6b4a9c09c7821d889a0, type: 2}
+  FootstepAudioClips:
+  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
+  - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
+  FootstepAudioVolume: 0.5
+--- !u!114 &3668916926404130152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 3
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 1
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,9 +2128,9 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43714b68324cc2c409d534d9874f2a2b, type: 2}
-  - {fileID: 2100000, guid: 766fd3ff04aab4745a764d33daac86fa, type: 2}
-  - {fileID: 2100000, guid: 8b25e99361ac31d4e9ae83c46aee69ea, type: 2}
+  - {fileID: 2100000, guid: 46da628bd61de6b4a9c09c7821d889a0, type: 2}
+  - {fileID: 2100000, guid: 46da628bd61de6b4a9c09c7821d889a0, type: 2}
+  - {fileID: 2100000, guid: 46da628bd61de6b4a9c09c7821d889a0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
