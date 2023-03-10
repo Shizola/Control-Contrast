@@ -6,11 +6,13 @@ TagManager:
   tags:
   - CinemachineTarget
   - Marker
+  - RoomLight
+  - SamplesInfoPanel
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NavMesh
   - Water
   - UI
   - 

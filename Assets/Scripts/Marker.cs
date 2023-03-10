@@ -20,10 +20,22 @@ public class Marker : MonoBehaviour, IControllable
         _renderer = GetComponentInChildren<Renderer>();
     }
 
+    public void ToggleControl()
+    {
+        if (InControl)
+        {
+            InControl = false;
+            ReleaseControl();
+        }
+        else
+        {
+            InControl = true;
+            TakeControl();
+        }
+    }
 
     public void ReleaseControl()
-    {
-        InControl = false;
+    {        
         Material mat = _renderer.material;
         mat = releaseMaterial;
         _renderer.material = mat;
@@ -34,7 +46,6 @@ public class Marker : MonoBehaviour, IControllable
 
     public void TakeControl()
     {
-        InControl = true;
         Material mat = _renderer.material;
         mat = controlMaterial;
         _renderer.material = mat;

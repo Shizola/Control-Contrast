@@ -37,10 +37,23 @@ public class Man : MonoBehaviour, IControllable
         _animator = GetComponent<Animator>();
     }
 
+    public void ToggleControl()
+    {
+        if (InControl)
+        {
+            InControl = false;
+            ReleaseControl();
+        }
+        else
+        {
+            InControl = true;
+            TakeControl();
+        }
+    }
+
     public void ReleaseControl()
     {
-        InControl = false;
-
+     
         _outline.enabled = false;
 
         Material[] mats = _skinnedMeshRenderer.materials;
@@ -57,8 +70,7 @@ public class Man : MonoBehaviour, IControllable
 
     public void TakeControl()
     {
-        InControl = true;
-
+       
         _outline.enabled = false;
 
         Material[] mats = _skinnedMeshRenderer.materials;
